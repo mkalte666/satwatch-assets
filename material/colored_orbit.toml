@@ -1,0 +1,8 @@
+name = "Colored Orbit"
+
+[shaders]
+vertex = "shader/colored.vs.glsl"
+fragment = "shader/colored.fs.glsl"
+
+[parameters]
+draw_color = [0.5,0.1,0.3,1.0]

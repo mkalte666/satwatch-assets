@@ -1,0 +1,15 @@
+name = "Colored Dirlight"
+
+[shaders]
+vertex = "shader/dirlight.vs.glsl"
+fragment = "shader/cubemap_dirlight.fs.glsl"
+
+[parameters]
+cubemap_faces = [
+    "image/earth/earth_px.png",
+    "image/earth/earth_nx.png",
+    "image/earth/earth_py.png",
+    "image/earth/earth_ny.png",
+    "image/earth/earth_pz.png",
+    "image/earth/earth_nz.png",
+]
